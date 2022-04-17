@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean validateUsername(){
-        String usernameInput = textInputEmail.getEditText().getText().toString().trim();
+        String usernameInput = textInputUsername.getEditText().getText().toString().trim();
 
         if (usernameInput.isEmpty()){
             textInputEmail.setError("Field can't be empty");
